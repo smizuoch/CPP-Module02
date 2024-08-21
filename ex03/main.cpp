@@ -20,6 +20,7 @@ int main()
 	else
 		std::cout << "Point p2 is outside the triangle" << std::endl;
 
+	// 各三角形と点に対して bsp 関数を使って、その点が三角形の内部にあるかどうかを判定する
 	std::cout << std::boolalpha
 
 	          << "a(0, 0), b(0, 5), c(5, 0), point(1, 1): " << bsp(Point(0, 0), Point(0, 5), Point(5, 0), Point(1, 1))
